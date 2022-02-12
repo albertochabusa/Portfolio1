@@ -5,13 +5,22 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
+<!-- Navigation -->
 <body>
-
+  <nav class="navbar">
+    <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#Hobbies">Hobbies</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<!-- header -->
 	<header>
 		<div>
 			<h1>Alberto Chabusa</h1>
       <p> Software Engineer</p>
+      
 		</div>
 	</header>
 
@@ -19,47 +28,53 @@
 		<div>
 
 			<article>
-        <section>
+        <!-- introduction -->
+      <section id="home">
 				<h2>Welcome to my first portfolio</h2>
 					<p> I am a Software Engineer living in Boca Raton, Fl. 
 						</p>
-			
-
-				<section1>
-					<ul>Even though I am studying software engineer, I am also interested in:</ul>
+				</section>
+        <!-- Learn more about me -->
+        <section id="Hobbies">
+          <ul>Even though I am studying software engineer, I am also interested in:</ul>
 					<li> Biological sciences
 						</li>
-          <li> Working in teams to create new things</li> 
+            <li> Athletic activities such as Crossfit </li>
+            <li> Learning multiple skills for fun, just to seek knowledge </li>
+            <li> Working in teams to create new automated programs</li> 
           <li> Code to create user friendly websites </li>
-          <h4>Allow me to present my first project </h4>
-				</section1>
-		<section id="image">
+				</section>
+    <section id="image">
+      <div class = "image">
 		<img src="./IMG_5636 Small.jpeg" alt="Image of a software engineer" />
+      </div>
 		</section>
 
-				<section2>
+        
+<!-- About me -->
+				<section id="aboutme"></section>
 					<h3>About me</h3>
 					<p> I am a student for thinkful. I graduated from Florida Atlantic University in Biological Sciences. I started getting interested in software engineer after graduating. I found this passion of creating websites that allows me to bring a client's imagination to reality. Also if you want to work with me to achieve great things you can contact me.
 						</p>
             <p>Since I started my new future with <a> thinkful</a>. I found a passion for building web applications that allow any business to flourish.</p>
-            <p> Allow me to help you create a website that gives your clients the ability to shop like they are in your physical store. </p>
+            <p> Allow me to help you create a website that gives your clients the ability to feel like they are in your physical store. </p>
+            <p> Please feel free to reach me to contact me at anytime.</p>
 				</section2>
 
 			</article>
 		</div>
 	</main>
-
-	<footer>
-		<div>
-      <p> Please feel free to reach me to contact me at anytime.</p>
+<!-- Footer and contact info -->
+	<footer class = "footer">
+    <section id="contact">
+		
       <ul> You can contact me at any of the following</ul>
-      <li><a href = 'https://www.instagram.com/albertochabu/'> Instagram</a></li>
-      
+      <li><a href = 'https://www.instagram.com/albertochabu/'> Instagram</a>
+      </li>
       <li><a href = "https://www.linkedin.com/in/alberto-chabusa-a43899231/">LinkedIn</a></li>
+      </section>
       
 			<p>©Alberto Chabusa</p>
-	
-    </div>
 </footer>
 
     <script src="script.js"></script>
