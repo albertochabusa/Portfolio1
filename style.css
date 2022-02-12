@@ -25,6 +25,7 @@
 
 
 
+
 header { 
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,6 +41,19 @@ header {
 main{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+#home{
+  text-align: center;
+}
+#Hobbies {
+  text-align: center;
+  list-style: none;
+  font-size: 20px
+}
+
+#aboutme{
+  text-align: center;
+  font-size: 20px
+}
 
 
 /*footer setting*/
@@ -47,14 +61,13 @@ main{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: black;
   color: white;
+  
   }
-.footer ul{
-  text-align: center;
+  .footer ul{
+    text-align: center;
+  }
+#contact li a{
+ color:white;
+ text-weight: bold;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
- 
-.footer ul li a{
-  color:white;
-  text-align: center;
-}
-
-
