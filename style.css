@@ -34,9 +34,9 @@ header {
 }
 /* :horizontal line decoration */
 hr{
- height: 1px;
+ height: 3px;
   background-color: black;
-  border: 1px solid black;
+  border: 2px solid black;
 }  
 /*image setting*/
 .image{
