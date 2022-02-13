@@ -16,7 +16,7 @@
 .navbar ul li a{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
-  padding: 8px 25px;
+  padding: 8px 50px;
   color:white;
   font-weight: bold;
   
@@ -32,10 +32,15 @@ header {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
 }
+/* :horizontal line decoration */
+hr{
+ height: 1px;
+  background-color: black;
+  border: 1px solid black;
+}  
 /*image setting*/
 .image{
   text-align: center;
-  padding: 40px 20px;
 }
 
 main{
@@ -66,8 +71,18 @@ main{
   .footer ul{
     text-align: center;
   }
-#contact li a{
+#contact li a{ 
  color:white;
  text-weight: bold;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
+
+
+
+
+ 
+
+  
+
+
