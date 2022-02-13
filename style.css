@@ -40,6 +40,7 @@ hr{
 }  
 /*image setting*/
 .image{
+  height: 10px;
   text-align: center;
 }
 
