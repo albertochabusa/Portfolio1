@@ -26,7 +26,8 @@
 
 
 
-header { 
+header {
+  margin:200px; 
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(0, 0, 0);
@@ -67,24 +68,12 @@ main{
  .footer{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: black;
-  color: white;
+  color:white;
+    }
   
-  }
-  .footer ul{
-    text-align: center;
-  }
 #contact li a{ 
- color:white;
- text-weight: bold;
+  color: white;
+  text-weight: bold;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
  
-}
-
-
-
-
- 
-
-  
-
-
